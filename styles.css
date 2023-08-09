@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,33 +7,76 @@ body {
     color: #000000; /* Black text color */
 }
 
-header {
-    background-color: #0f5074; /* Blue background color for the header/navigation bar */
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
+/* Cybersecurity Image Styles (Adjusted to 150 pixels in height) */
+.cybersecurity-image {
+    background: url('cybersecurity-banner.png') center top no-repeat;
+    background-size: cover;
+    height: 150px; /* Updated cybersecurity image height */
 }
 
-nav ul {
+/* New Header Styles (3x larger than original) */
+.new-header {
+    background-color: #0f5074; /* Blue background color for the new header */
+    color: #ffffff;
+    padding: 0; /* Remove padding to merge header and logo seamlessly */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Add relative positioning to the header */
+    height: 100px; /* Updated header height to match logo height */
+}
+
+/* Navigation Styles */
+.nav-links {
     list-style: none;
     padding: 0;
+    display: flex;
+    margin-right: 20px; /* Add margin to the right side of navigation */
 }
 
-nav ul li {
-    display: inline;
+.nav-links li {
     margin-right: 20px;
 }
 
-nav ul li a {
+.nav-links li a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Logo Styles */
+.logo img {
+    width: 220px; /* Updated logo width */
+    height: 100px; /* Updated logo height */
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Impact Phrases Section Styles */
+.impact-phrases {
+    background-color: #f4f4f4; /* Light gray background color */
+    padding: 50px 0;
+}
+
+.impact-phrases .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.impact-phrases p {
+    margin-bottom: 20px;
+}
+
+/* Section Styles */
 section {
     padding: 50px 0;
     text-align: center;
 }
 
+/* Footer Styles */
 footer {
     background-color: #0f5074; /* Blue background color for the footer */
     color: #ffffff;
