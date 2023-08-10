@@ -82,4 +82,75 @@ footer {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+}/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Cybersecurity Image Styles */
+.cybersecurity-image {
+    background: url('cybersecurity-banner.png') center top no-repeat;
+    background-size: cover;
+    height: 150px; /* Adjust the height as needed */
+}
+
+/* New Header Styles */
+.new-header {
+    background-color: #0f5074;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100px; /* Adjust the height as needed */
+}
+
+/* Navigation Styles */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 20px;
+}
+
+/* Logo Styles */
+.logo img {
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Impact Phrases Section Styles */
+.impact-phrases {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.impact-phrases .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0f5074;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
 }
